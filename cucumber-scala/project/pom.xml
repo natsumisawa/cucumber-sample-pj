@@ -1,0 +1,6 @@
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-scala_2.12</artifactId>
+    <version>4.2.0</version>
+    <scope>test</scope>
+</dependency>

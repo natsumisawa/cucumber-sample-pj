@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.rauschig:jarchivelib:0.8.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.rauschig/jarchivelib/bundles/jarchivelib-0.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.rauschig/jarchivelib/srcs/jarchivelib-0.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="ex-cucumber$sources"
+		revision="0.1"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20181118221245"/>
+	<dependencies>
+		<module organisation="com.codeborne" name="selenide">
+			<revision name="4.14.2" status="release" pubdate="20180922163600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/codeborne/selenide" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="MIT" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="4008" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.codeborne/selenide/ivy-4.14.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/codeborne/selenide/4.14.2/selenide-4.14.2.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.14.2" rev-constraint-default="4.14.2" rev-constraint-dynamic="4.14.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenide" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="153980" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.codeborne/selenide/srcs/selenide-4.14.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/codeborne/selenide/4.14.2/selenide-4.14.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter-api">
+			<revision name="5.3.1" status="release" pubdate="20180911134843" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="Eclipse Public License v2.0" url="http://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="3009" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.junit.jupiter/junit-jupiter-api/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.3.1/junit-jupiter-api-5.3.1.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="junit-jupiter-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="124270" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.junit.jupiter/junit-jupiter-api/srcs/junit-jupiter-api-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.3.1/junit-jupiter-api-5.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.platform" name="junit-platform-commons">
+			<revision name="1.3.1" status="release" pubdate="20180911134923" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="Eclipse Public License v2.0" url="http://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="2723" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.junit.platform/junit-platform-commons/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="junit-platform-commons" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="56871" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.junit.platform/junit-platform-commons/srcs/junit-platform-commons-1.3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.lightbody.bmp" name="browsermob-core">
+			<revision name="2.1.5" status="release" pubdate="20170911144508" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="14460" time="0" location="/Users/natsumi.sawa/.ivy2/cache/net.lightbody.bmp/browsermob-core/ivy-2.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/lightbody/bmp/browsermob-core/2.1.5/browsermob-core-2.1.5.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="browsermob-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="105997" time="0" location="/Users/natsumi.sawa/.ivy2/cache/net.lightbody.bmp/browsermob-core/srcs/browsermob-core-2.1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/lightbody/bmp/browsermob-core/2.1.5/browsermob-core-2.1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.lightbody.bmp" name="mitm">
+			<revision name="2.1.5" status="release" pubdate="20170911144519" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11700" time="0" location="/Users/natsumi.sawa/.ivy2/cache/net.lightbody.bmp/mitm/ivy-2.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/lightbody/bmp/mitm/2.1.5/mitm-2.1.5.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="mitm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="196972" time="0" location="/Users/natsumi.sawa/.ivy2/cache/net.lightbody.bmp/mitm/srcs/mitm-2.1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/lightbody/bmp/mitm/2.1.5/mitm-2.1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-all">
+			<revision name="4.0.51.Final" status="release" pubdate="20170824222614" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18078" time="0" location="/Users/natsumi.sawa/.ivy2/cache/io.netty/netty-all/ivy-4.0.51.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-all/4.0.51.Final/netty-all-4.0.51.Final.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.0.51.Final" rev-constraint-default="4.0.51.Final" rev-constraint-dynamic="4.0.51.Final" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netty-all" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1793915" time="0" location="/Users/natsumi.sawa/.ivy2/cache/io.netty/netty-all/srcs/netty-all-4.0.51.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-all/4.0.51.Final/netty-all-4.0.51.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jcraft" name="jzlib">
+			<revision name="1.1.3" status="release" pubdate="20131004165457" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jcraft.com/jzlib/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="BSD" url="http://www.jcraft.com/jzlib/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3068" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.jcraft/jzlib/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3/jzlib-1.1.3.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jzlib" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="75560" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.jcraft/jzlib/srcs/jzlib-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3/jzlib-1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.7.25" status="release" pubdate="20170317013729" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5273" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23239" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.slf4j/jcl-over-slf4j/srcs/jcl-over-slf4j-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.8.9" status="release" pubdate="20170612093719" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6969" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57660" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.8.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.8.9" status="release" pubdate="20170612095351" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8156" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="929913" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.8.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.8.9" status="release" pubdate="20170612094341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7423" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="294668" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.8.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcpkix-jdk15on">
+			<revision name="1.58" status="release" pubdate="20170823130821" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2927" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/ivy-1.58.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.58/bcpkix-jdk15on-1.58.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.58" rev-constraint-default="1.58" rev-constraint-dynamic="1.58" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="bcpkix-jdk15on" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="492429" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/srcs/bcpkix-jdk15on-1.58-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.58/bcpkix-jdk15on-1.58-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcprov-jdk15on">
+			<revision name="1.58" status="release" pubdate="20170823131529" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2676" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/ivy-1.58.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.58/bcprov-jdk15on-1.58.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.58" rev-constraint-default="1.58" rev-constraint-dynamic="1.58" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="bcprov-jdk15on" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3458481" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/srcs/bcprov-jdk15on-1.58-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.58/bcprov-jdk15on-1.58-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.opentest4j" name="opentest4j">
+			<revision name="1.1.1" status="release" pubdate="20180911041447" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ota4j-team/opentest4j" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2515" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.opentest4j/opentest4j/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="opentest4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7816" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.opentest4j/opentest4j/srcs/opentest4j-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.lightbody.bmp" name="littleproxy">
+			<revision name="1.1.0-beta-bmp-17" status="release" pubdate="20170717034800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://littleproxy.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7957" time="0" location="/Users/natsumi.sawa/.ivy2/cache/net.lightbody.bmp/littleproxy/ivy-1.1.0-beta-bmp-17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/lightbody/bmp/littleproxy/1.1.0-beta-bmp-17/littleproxy-1.1.0-beta-bmp-17.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.0-beta-bmp-17" rev-constraint-default="1.1.0-beta-bmp-17" rev-constraint-dynamic="1.1.0-beta-bmp-17" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="littleproxy" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="83379" time="0" location="/Users/natsumi.sawa/.ivy2/cache/net.lightbody.bmp/littleproxy/srcs/littleproxy-1.1.0-beta-bmp-17-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/lightbody/bmp/littleproxy/1.1.0-beta-bmp-17/littleproxy-1.1.0-beta-bmp-17-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dnsjava" name="dnsjava">
+			<revision name="2.1.8" status="release" pubdate="20170108232047" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.dnsjava.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="BSD 2-Clause license" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="3679" time="0" location="/Users/natsumi.sawa/.ivy2/cache/dnsjava/dnsjava/ivy-2.1.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/dnsjava/dnsjava/2.1.8/dnsjava-2.1.8.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.8" rev-constraint-default="2.1.8" rev-constraint-dynamic="2.1.8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="dnsjava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="204845" time="0" location="/Users/natsumi.sawa/.ivy2/cache/dnsjava/dnsjava/srcs/dnsjava-2.1.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/dnsjava/dnsjava/2.1.8/dnsjava-2.1.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apiguardian" name="apiguardian-api">
+			<revision name="1.0.0" status="release" pubdate="20170910185211" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/apiguardian-team/apiguardian" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2516" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.apiguardian/apiguardian-api/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="apiguardian-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2229" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.apiguardian/apiguardian-api/srcs/apiguardian-api-1.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.github.bonigarcia" name="webdrivermanager">
+			<revision name="3.0.0" status="release" pubdate="20180904192741" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/bonigarcia/webdrivermanager" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="8170" time="0" location="/Users/natsumi.sawa/.ivy2/cache/io.github.bonigarcia/webdrivermanager/ivy-3.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/github/bonigarcia/webdrivermanager/3.0.0/webdrivermanager-3.0.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0.0" rev-constraint-default="3.0.0" rev-constraint-dynamic="3.0.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="webdrivermanager" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43114" time="0" location="/Users/natsumi.sawa/.ivy2/cache/io.github.bonigarcia/webdrivermanager/srcs/webdrivermanager-3.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/github/bonigarcia/webdrivermanager/3.0.0/webdrivermanager-3.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-java">
+			<revision name="3.14.0" status="release" pubdate="20180803052746" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7157" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-java/ivy-3.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.14.0" rev-constraint-default="3.14.0" rev-constraint-dynamic="3.14.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-java/srcs/selenium-java-3.14.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-support">
+			<revision name="3.14.0" status="release" pubdate="20180803052127" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5297" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-support/ivy-3.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.14.0" rev-constraint-default="3.14.0" rev-constraint-dynamic="3.14.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-support" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="75266" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-support/srcs/selenium-support-3.14.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-safari-driver">
+			<revision name="3.14.0" status="release" pubdate="20180803052712" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5309" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-safari-driver/ivy-3.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.14.0" rev-constraint-default="3.14.0" rev-constraint-dynamic="3.14.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-safari-driver" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6724" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-safari-driver/srcs/selenium-safari-driver-3.14.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-opera-driver">
+			<revision name="3.14.0" status="release" pubdate="20180803052532" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5307" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-opera-driver/ivy-3.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.14.0" rev-constraint-default="3.14.0" rev-constraint-dynamic="3.14.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-opera-driver" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7354" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-opera-driver/srcs/selenium-opera-driver-3.14.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-ie-driver">
+			<revision name="3.14.0" status="release" pubdate="20180803052424" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5301" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-ie-driver/ivy-3.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.14.0" rev-constraint-default="3.14.0" rev-constraint-dynamic="3.14.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-ie-driver" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11439" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-ie-driver/srcs/selenium-ie-driver-3.14.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-firefox-driver">
+			<revision name="3.14.0" status="release" pubdate="20180803052336" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5311" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-firefox-driver/ivy-3.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.14.0" rev-constraint-default="3.14.0" rev-constraint-dynamic="3.14.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-firefox-driver" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37762" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-firefox-driver/srcs/selenium-firefox-driver-3.14.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-edge-driver">
+			<revision name="3.14.0" status="release" pubdate="20180803052238" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5305" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-edge-driver/ivy-3.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.14.0" rev-constraint-default="3.14.0" rev-constraint-dynamic="3.14.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-edge-driver" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5279" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-edge-driver/srcs/selenium-edge-driver-3.14.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-chrome-driver">
+			<revision name="3.14.0" status="release" pubdate="20180803052202" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5309" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-chrome-driver/ivy-3.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.14.0" rev-constraint-default="3.14.0" rev-constraint-dynamic="3.14.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-chrome-driver" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10154" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-chrome-driver/srcs/selenium-chrome-driver-3.14.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-remote-driver">
+			<revision name="3.14.0" status="release" pubdate="20180803052636" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5039" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-remote-driver/ivy-3.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.14.0" rev-constraint-default="3.14.0" rev-constraint-dynamic="3.14.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-remote-driver" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="207601" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-remote-driver/srcs/selenium-remote-driver-3.14.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.squareup.okio" name="okio">
+			<revision name="1.14.1" status="release" pubdate="20180430231619" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4944" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.squareup.okio/okio/ivy-1.14.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/okio/okio/1.14.1/okio-1.14.1.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.14.1" rev-constraint-default="1.14.1" rev-constraint-dynamic="1.14.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="okio" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="74816" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.squareup.okio/okio/srcs/okio-1.14.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/squareup/okio/okio/1.14.1/okio-1.14.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.squareup.okhttp3" name="okhttp">
+			<revision name="3.10.0" status="release" pubdate="20180225033506" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6230" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.squareup.okhttp3/okhttp/ivy-3.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.10.0" rev-constraint-default="3.10.0" rev-constraint-dynamic="3.10.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="okhttp" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="314424" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.squareup.okhttp3/okhttp/srcs/okhttp-3.10.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-exec">
+			<revision name="1.3" status="release" pubdate="20141103092715" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-exec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10376" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.apache.commons/commons-exec/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-exec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="61886" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.apache.commons/commons-exec/srcs/commons-exec-1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.bytebuddy" name="byte-buddy">
+			<revision name="1.8.15" status="release" pubdate="20180727064927" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6746" time="0" location="/Users/natsumi.sawa/.ivy2/cache/net.bytebuddy/byte-buddy/ivy-1.8.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.8.15" rev-constraint-default="1.8.15" rev-constraint-dynamic="1.8.15" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="byte-buddy" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="959229" time="0" location="/Users/natsumi.sawa/.ivy2/cache/net.bytebuddy/byte-buddy/srcs/byte-buddy-1.8.15-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-api">
+			<revision name="3.14.0" status="release" pubdate="20180803052036" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2589" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-api/ivy-3.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.14.0" rev-constraint-default="3.14.0" rev-constraint-dynamic="3.14.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="170587" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.seleniumhq.selenium/selenium-api/srcs/selenium-api-3.14.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="25.0-jre" status="release" pubdate="20180426072855" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7546" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.google.guava/guava/ivy-25.0-jre.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/25.0-jre/guava-25.0-jre.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="25.0-jre" rev-constraint-default="25.0-jre" rev-constraint-dynamic="25.0-jre" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1626906" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.google.guava/guava/srcs/guava-25.0-jre-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.mojo" name="animal-sniffer-annotations">
+			<revision name="1.14" status="release" pubdate="20150226015330" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4565" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.codehaus.mojo/animal-sniffer-annotations/ivy-1.14.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.14" rev-constraint-default="1.14" rev-constraint-dynamic="1.14" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="animal-sniffer-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1862" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.codehaus.mojo/animal-sniffer-annotations/srcs/animal-sniffer-annotations-1.14-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.j2objc" name="j2objc-annotations">
+			<revision name="1.1" status="release" pubdate="20170119080659" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/google/j2objc/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3174" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.google.j2objc/j2objc-annotations/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="j2objc-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10481" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.google.j2objc/j2objc-annotations/srcs/j2objc-annotations-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.errorprone" name="error_prone_annotations">
+			<revision name="2.1.3" status="release" pubdate="20171129070614" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4103" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.google.errorprone/error_prone_annotations/ivy-2.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.3" rev-constraint-default="2.1.3" rev-constraint-dynamic="2.1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="error_prone_annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25622" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.google.errorprone/error_prone_annotations/srcs/error_prone_annotations-2.1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.checkerframework" name="checker-compat-qual">
+			<revision name="2.0.0" status="release" pubdate="20160503113856" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://checkerframework.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="GNU General Public License, version 2 (GPL2), with the classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<license name="The MIT License" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2832" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.checkerframework/checker-compat-qual/ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="checker-compat-qual" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1554466" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.checkerframework/checker-compat-qual/srcs/checker-compat-qual-2.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jsoup" name="jsoup">
+			<revision name="1.11.3" status="release" pubdate="20180416072107" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://jsoup.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="The MIT License" url="https://jsoup.org/license"/>
+				<metadata-artifact status="no" details="" size="3764" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.jsoup/jsoup/ivy-1.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.3" rev-constraint-default="1.11.3" rev-constraint-dynamic="1.11.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jsoup" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="184000" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.jsoup/jsoup/srcs/jsoup-1.11.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.3/jsoup-1.11.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.rauschig" name="jarchivelib">
+			<revision name="0.8.0" status="release" pubdate="20180627233345" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://rauschig.org/jarchivelib" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4521" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.rauschig/jarchivelib/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/rauschig/jarchivelib/0.8.0/jarchivelib-0.8.0.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jarchivelib" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30176" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.rauschig/jarchivelib/srcs/jarchivelib-0.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/rauschig/jarchivelib/0.8.0/jarchivelib-0.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.14" status="release" pubdate="20170512041625" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-compress/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12896" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.14.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.14/commons-compress-1.14.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.14" rev-constraint-default="1.14" rev-constraint-dynamic="1.14" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-compress" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="510556" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.14-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.14/commons-compress-1.14-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.5.5" status="release" pubdate="20180118205409" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10932" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.5.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.5.5" rev-constraint-default="4.5.5" rev-constraint-dynamic="4.5.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="729131" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.5.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106231535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10608" time="0" location="/Users/natsumi.sawa/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="301032" time="0" location="/Users/natsumi.sawa/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.9" status="release" pubdate="20180112124227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9276" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.4.9" rev-constraint-default="4.4.9" rev-constraint-dynamic="4.4.9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="410131" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.4.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20140706031228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11623" time="0" location="/Users/natsumi.sawa/.ivy2/cache/commons-logging/commons-logging/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73295" time="0" location="/Users/natsumi.sawa/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.7" status="release" pubdate="20171105031619" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="13273" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.7" rev-constraint-default="3.7" rev-constraint-dynamic="3.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="550341" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.gson" name="gson">
+			<revision name="2.8.5" status="release" pubdate="20180522120859" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3648" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.google.code.gson/gson/ivy-2.8.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.8.5" rev-constraint-default="2.8.5" rev-constraint-dynamic="2.8.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="gson" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="156280" time="0" location="/Users/natsumi.sawa/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.8.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.6" status="release" pubdate="20171015190052" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12838" time="0" location="/Users/natsumi.sawa/.ivy2/cache/commons-io/commons-io/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="280834" time="0" location="/Users/natsumi.sawa/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170317013632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55539" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.7" status="release" pubdate="20180927173542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="991412" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.12" status="release" pubdate="20141205011743" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="3">
+				<license name="Eclipse Public License 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3317" time="0" location="/Users/natsumi.sawa/.ivy2/cache/junit/junit/ivy-4.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="junit" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200355" time="0" location="/Users/natsumi.sawa/.ivy2/cache/junit/junit/srcs/junit-4.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-core">
+			<revision name="1.3" status="release" pubdate="20120710060802" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2617" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="hamcrest-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32624" time="0" location="/Users/natsumi.sawa/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="info.cukes" name="cucumber-scala_2.11">
+			<revision name="1.2.4" status="release" pubdate="20150723224718" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license"/>
+				<metadata-artifact status="no" details="" size="20733" time="0" location="/Users/natsumi.sawa/.ivy2/cache/info.cukes/cucumber-scala_2.11/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/info/cukes/cucumber-scala_2.11/1.2.4/cucumber-scala_2.11-1.2.4.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="cucumber-scala_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11079" time="0" location="/Users/natsumi.sawa/.ivy2/cache/info.cukes/cucumber-scala_2.11/srcs/cucumber-scala_2.11-1.2.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/info/cukes/cucumber-scala_2.11/1.2.4/cucumber-scala_2.11-1.2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="info.cukes" name="cucumber-junit">
+			<revision name="1.2.4" status="release" pubdate="20150723224128" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license"/>
+				<metadata-artifact status="no" details="" size="20077" time="0" location="/Users/natsumi.sawa/.ivy2/cache/info.cukes/cucumber-junit/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/info/cukes/cucumber-junit/1.2.4/cucumber-junit-1.2.4.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="cucumber-junit" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9229" time="0" location="/Users/natsumi.sawa/.ivy2/cache/info.cukes/cucumber-junit/srcs/cucumber-junit-1.2.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/info/cukes/cucumber-junit/1.2.4/cucumber-junit-1.2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="info.cukes" name="cucumber-core">
+			<revision name="1.2.4" status="release" pubdate="20150723224109" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license"/>
+				<metadata-artifact status="no" details="" size="20782" time="0" location="/Users/natsumi.sawa/.ivy2/cache/info.cukes/cucumber-core/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="cucumber-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="110862" time="0" location="/Users/natsumi.sawa/.ivy2/cache/info.cukes/cucumber-core/srcs/cucumber-core-1.2.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="info.cukes" name="gherkin">
+			<revision name="2.12.2" status="release" pubdate="20131013001558" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/cucumber/gherkin" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license"/>
+				<metadata-artifact status="no" details="" size="4108" time="0" location="/Users/natsumi.sawa/.ivy2/cache/info.cukes/gherkin/ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/info/cukes/gherkin/2.12.2/gherkin-2.12.2.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="gherkin" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="602449" time="0" location="/Users/natsumi.sawa/.ivy2/cache/info.cukes/gherkin/srcs/gherkin-2.12.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/info/cukes/gherkin/2.12.2/gherkin-2.12.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="info.cukes" name="cucumber-jvm-deps">
+			<revision name="1.0.5" status="release" pubdate="20150707083334" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/cucumber/cucumber-jvm-deps" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD License" url="http://xstream.codehaus.org/license.html"/>
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3179" time="0" location="/Users/natsumi.sawa/.ivy2/cache/info.cukes/cucumber-jvm-deps/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="cucumber-jvm-deps" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="363" time="0" location="/Users/natsumi.sawa/.ivy2/cache/info.cukes/cucumber-jvm-deps/srcs/cucumber-jvm-deps-1.0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="info.cukes" name="cucumber-html">
+			<revision name="0.2.3" status="release" pubdate="20130519184932" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license"/>
+				<metadata-artifact status="no" details="" size="2969" time="0" location="/Users/natsumi.sawa/.ivy2/cache/info.cukes/cucumber-html/ivy-0.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.pom"/>
+				<caller organisation="default" name="ex-cucumber$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="0.2.3" rev-constraint-default="0.2.3" rev-constraint-dynamic="0.2.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="cucumber-html" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="54966" time="0" location="/Users/natsumi.sawa/.ivy2/cache/info.cukes/cucumber-html/srcs/cucumber-html-0.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
