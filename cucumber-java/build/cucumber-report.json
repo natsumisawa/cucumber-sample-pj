@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "トップページ表示",
+        "description": "",
+        "id": "テストシナリオ;トップページ表示",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6903094507,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "playアプリケーションの立ち上げ",
+            "match": {
+              "location": "StepDefinition.playアプリケーションの立ち上げ()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "トップページに遷移",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "ここをクリックすると表示される",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "テストシナリオ",
+    "description": "",
+    "id": "テストシナリオ",
+    "keyword": "Feature",
+    "uri": "gradle/cucumber/test.feature"
+  }
+]
