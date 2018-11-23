@@ -1,13 +1,11 @@
 @()
 
-@main("Welcome to Play") {
+@main("vote page") {
   <h1 class="test-class">究極の選択</h1>
-  <div>
-    <form method="post">
-      <input type="checkbox" value="momoko">大園桃子
-      <input type="checkbox" value="mizuki">山下美月
-      <input type="checkbox" value="yuki">与田祐希
-      <input type="submit" value="投票">
-    </form>
+  <div class="nogi-list">
+    <input class="momo" type="checkbox" value="momoko">大園桃子
+    <input type="checkbox" value="mizuki">山下美月
+    <input type="checkbox" value="yuki">与田祐希
+    <a href="@routes.HomeController.vote()"><input type="submit" value="投票"></a>
   </div>
 }
