@@ -1,6 +1,7 @@
 package gradle.cucumber;
 
 import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -11,7 +12,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import static junit.framework.TestCase.assertTrue;
-
 
 public class StepDefinition {
 
@@ -24,12 +24,32 @@ public class StepDefinition {
         driver.get("http://localhost:9000/");
     }
 
-    @Then("^推しを投票してねと表示される")
-    public void 推しを投票してねと表示される() throws Throwable {
+    @Then("^トップページに遷移$")
+    public void トップページに遷移() throws Throwable {
         Thread.sleep(1000);
         WebElement element = driver.findElement(By.tagName("h1"));
         String text = element.getText();
-        assertTrue(text.contains("推しを投票してね"));
+        assertTrue(text.contains("究極の選択"));
+    }
+
+    @And("^乃木坂3期生が表示される$")
+    public void 乃木坂3期生が表示される() throws Throwable {
+        Thread.sleep(1000);
+        assertTrue(driver.findElement(By.tagName("input")).isDisplayed());
+    }
+
+    @And("^与田祐希のチェックボックスをチェックする$")
+    public void 与田祐希のチェックボックスをチェックする() throws Throwable {
+        WebElement element = driver.findElement(By.cssSelector("input[value='yuki']"));
+        element.click();
+        Thread.sleep(2000);
+        assertTrue(element.isSelected());
         driver.quit();
+    }
+
+    @And("^与田祐希に投票できる$")
+    public void 与田祐希に投票できる() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
     }
 }

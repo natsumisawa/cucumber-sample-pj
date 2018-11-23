@@ -6,13 +6,13 @@
         "line": 3,
         "name": "トップページ表示",
         "description": "",
-        "id": "テストシナリオ;トップページ表示",
+        "id": "乃木坂3期生推し投票機能;トップページ表示",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 6903094507,
+              "duration": 4881819388,
               "status": "passed"
             },
             "line": 4,
@@ -24,28 +24,59 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1044183483,
+              "status": "passed"
             },
             "line": 5,
             "name": "トップページに遷移",
-            "match": {},
+            "match": {
+              "location": "StepDefinition.トップページに遷移()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1034141849,
+              "status": "passed"
             },
             "line": 6,
-            "name": "ここをクリックすると表示される",
-            "match": {},
-            "keyword": "Then "
+            "name": "乃木坂3期生が表示される",
+            "match": {
+              "location": "StepDefinition.乃木坂3期生が表示される()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2223474963,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "与田祐希のチェックボックスをチェックする",
+            "match": {
+              "location": "StepDefinition.与田祐希のチェックボックスをチェックする()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3310458,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat gradle.cucumber.StepDefinition.与田祐希に投票できる(StepDefinition.java:53)\n\tat ✽.And 与田祐希に投票できる(gradle/cucumber/test.feature:8)\n",
+              "status": "pending"
+            },
+            "line": 8,
+            "name": "与田祐希に投票できる",
+            "match": {
+              "location": "StepDefinition.与田祐希に投票できる()"
+            },
+            "keyword": "And "
           }
         ]
       }
     ],
-    "name": "テストシナリオ",
+    "name": "乃木坂3期生推し投票機能",
     "description": "",
-    "id": "テストシナリオ",
+    "id": "乃木坂3期生推し投票機能",
     "keyword": "Feature",
     "uri": "gradle/cucumber/test.feature"
   }
