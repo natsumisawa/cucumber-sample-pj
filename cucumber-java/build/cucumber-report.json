@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4881819388,
+              "duration": 6963448623,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1044183483,
+              "duration": 1045192114,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 1034141849,
+              "duration": 1033441917,
               "status": "passed"
             },
             "line": 6,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 2223474963,
+              "duration": 2068981238,
               "status": "passed"
             },
             "line": 7,
@@ -60,9 +60,8 @@
           },
           {
             "result": {
-              "duration": 3310458,
-              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat gradle.cucumber.StepDefinition.与田祐希に投票できる(StepDefinition.java:53)\n\tat ✽.And 与田祐希に投票できる(gradle/cucumber/test.feature:8)\n",
-              "status": "pending"
+              "duration": 198385287,
+              "status": "passed"
             },
             "line": 8,
             "name": "与田祐希に投票できる",
@@ -70,6 +69,18 @@
               "location": "StepDefinition.与田祐希に投票できる()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2160822669,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "投票完了と表示される",
+            "match": {
+              "location": "StepDefinition.投票完了と表示される()"
+            },
+            "keyword": "Then "
           }
         ]
       }
@@ -78,6 +89,6 @@
     "description": "",
     "id": "乃木坂3期生推し投票機能",
     "keyword": "Feature",
-    "uri": "gradle/cucumber/test.feature"
+    "uri": "gradle/cucumber/nogi.feature"
   }
 ]

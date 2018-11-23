@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gradle.cucumber.RunClass" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="BIZ0015000350.local" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+org.openqa.selenium.SessionNotCreatedException: Unable to find a matching set of capabilities
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'BIZ0015000350.local', ip: '2001:268:c1c3:6c1:71f4:855:15dc:ea31', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+selenide.url: http://localhost:9000/
+selenide.baseUrl: http://localhost:8080
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at com.codeborne.selenide.webdriver.FirefoxDriverFactory.createFirefoxDriver(FirefoxDriverFactory.java:33)
+	at com.codeborne.selenide.webdriver.FirefoxDriverFactory.create(FirefoxDriverFactory.java:28)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.lambda$createWebDriver$0(WebDriverFactory.java:61)
+	at java.util.Optional.map(Optional.java:215)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:61)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:230)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:116)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:134)
+	at com.codeborne.selenide.impl.Navigator.navigateTo(Navigator.java:66)
+	at com.codeborne.selenide.impl.Navigator.open(Navigator.java:38)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:80)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:56)
+	at gradle.cucumber.StepDefinition.playアプリケーションの立ち上げ(StepDefinition.java:29)
+	at ✽.Given playアプリケーションの立ち上げ(gradle/cucumber/test.feature:4)
+
+
+You can implement missing steps with the snippets below:
+
+@Given("^トップページに遷移$")
+public void トップページに遷移() throws Throwable {
+    // Express the Regexp above with the code you wish you had
+    throw new PendingException();
+}
+
+@Given("^乃木坂(\\d+)期生が表示される$")
+public void 乃木坂_期生が表示される(int arg1) throws Throwable {
+    // Express the Regexp above with the code you wish you had
+    throw new PendingException();
+}
+
+@Given("^与田祐希のチェックボックスをチェックする$")
+public void 与田祐希のチェックボックスをチェックする() throws Throwable {
+    // Express the Regexp above with the code you wish you had
+    throw new PendingException();
+}
+
+@Given("^与田祐希に投票できる$")
+public void 与田祐希に投票できる() throws Throwable {
+    // Express the Regexp above with the code you wish you had
+    throw new PendingException();
+}
+
+Feature: 乃木坂3期生推し投票機能
+
+  Scenario: トップページ表示         ?[90m# gradle/cucumber/test.feature:3?[0m
+    ?[90mGiven ?[0m?[90mplayアプリケーションの立ち上げ?[0m  ?[90m# StepDefinition.playアプリケーションの立ち上げ()?[0m
+?[1A    ?[31mGiven ?[0m?[31mplayアプリケーションの立ち上げ?[0m  ?[90m# StepDefinition.playアプリケーションの立ち上げ()?[0m
+      ?[31morg.openqa.selenium.SessionNotCreatedException: Unable to find a matching set of capabilities
+      Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+      System info: host: 'BIZ0015000350.local', ip: '2001:268:c1c3:6c1:71f4:855:15dc:ea31', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+      Driver info: driver.version: FirefoxDriver
+      selenide.url: http://localhost:9000/
+      selenide.baseUrl: http://localhost:8080
+      remote stacktrace: 
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+      	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+      	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+      	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+      	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+      	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+      	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+      	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+      	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+      	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+      	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+      	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+      	at com.codeborne.selenide.webdriver.FirefoxDriverFactory.createFirefoxDriver(FirefoxDriverFactory.java:33)
+      	at com.codeborne.selenide.webdriver.FirefoxDriverFactory.create(FirefoxDriverFactory.java:28)
+      	at com.codeborne.selenide.webdriver.WebDriverFactory.lambda$createWebDriver$0(WebDriverFactory.java:61)
+      	at java.util.Optional.map(Optional.java:215)
+      	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:61)
+      	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:230)
+      	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:116)
+      	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:134)
+      	at com.codeborne.selenide.impl.Navigator.navigateTo(Navigator.java:66)
+      	at com.codeborne.selenide.impl.Navigator.open(Navigator.java:38)
+      	at com.codeborne.selenide.Selenide.open(Selenide.java:80)
+      	at com.codeborne.selenide.Selenide.open(Selenide.java:56)
+      	at gradle.cucumber.StepDefinition.playアプリケーションの立ち上げ(StepDefinition.java:29)
+      	at ✽.Given playアプリケーションの立ち上げ(gradle/cucumber/test.feature:4)
+      ?[0m
+    ?[90mAnd ?[0m?[90mトップページに遷移?[0m
+?[1A    ?[33mAnd ?[0m?[33mトップページに遷移?[0m
+    ?[90mAnd ?[0m?[90m乃木坂3期生が表示される?[0m
+?[1A    ?[33mAnd ?[0m?[33m乃木坂3期生が表示される?[0m
+    ?[90mAnd ?[0m?[90m与田祐希のチェックボックスをチェックする?[0m
+?[1A    ?[33mAnd ?[0m?[33m与田祐希のチェックボックスをチェックする?[0m
+    ?[90mAnd ?[0m?[90m与田祐希に投票できる?[0m
+?[1A    ?[33mAnd ?[0m?[33m与田祐希に投票できる?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

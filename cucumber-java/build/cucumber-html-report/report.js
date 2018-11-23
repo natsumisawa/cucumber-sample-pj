@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("gradle/cucumber/test.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("gradle/cucumber/nogi.feature");
 formatter.feature({
   "line": 1,
   "name": "乃木坂3期生推し投票機能",
@@ -39,40 +39,51 @@ formatter.step({
   "name": "与田祐希に投票できる",
   "keyword": "And "
 });
+formatter.step({
+  "line": 9,
+  "name": "投票完了と表示される",
+  "keyword": "Then "
+});
 formatter.match({
   "location": "StepDefinition.playアプリケーションの立ち上げ()"
 });
 formatter.result({
-  "duration": 4881819388,
+  "duration": 6963448623,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.トップページに遷移()"
 });
 formatter.result({
-  "duration": 1044183483,
+  "duration": 1045192114,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.乃木坂3期生が表示される()"
 });
 formatter.result({
-  "duration": 1034141849,
+  "duration": 1033441917,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.与田祐希のチェックボックスをチェックする()"
 });
 formatter.result({
-  "duration": 2223474963,
+  "duration": 2068981238,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.与田祐希に投票できる()"
 });
 formatter.result({
-  "duration": 3310458,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat gradle.cucumber.StepDefinition.与田祐希に投票できる(StepDefinition.java:53)\n\tat ✽.And 与田祐希に投票できる(gradle/cucumber/test.feature:8)\n",
-  "status": "pending"
+  "duration": 198385287,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.投票完了と表示される()"
+});
+formatter.result({
+  "duration": 2160822669,
+  "status": "passed"
 });
 });

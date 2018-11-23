@@ -23,6 +23,8 @@ dependencies {
     compile 'info.cukes:cucumber-core:1.1.2'
     compile 'info.cukes:cucumber-java:1.1.2'
     compile 'info.cukes:cucumber-junit:1.1.2'
+    testCompile 'com.codeborne:selenide:3.5.1'
+    testCompile 'junit:junit:4.12'
 }
 
 task cucumberer() {
